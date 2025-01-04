@@ -1,0 +1,32 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+#content {
+    overflow: auto;
+    height: 100%;
+}
+#nav, #feature, #footer {
+    background: linear-gradient(90deg, grey, #a9a9a9);
+    padding: 10px;
+    margin: 10px;
+}
+
+#nav > ul > li  {
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
+
+.yellow-line    {
+    height: 15px;
+    background-color: yellow;
+}
+
+li{
+    display: inline;
+    padding: 25px;
+}
+
+div.nav {
+    border-width: 10px;
+}
